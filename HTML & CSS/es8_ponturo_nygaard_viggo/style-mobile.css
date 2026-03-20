@@ -1,0 +1,1687 @@
+*{
+    margin: 0;
+}
+
+html{font-size: 62.5%;}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+    font-family: Oswald-bold;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+h1, h2, h3{
+    font-family: Oswald;
+}
+
+p, a, h6, label, textarea, input{
+    font-family: OpenSans;
+}
+
+
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.navbar-menu{
+    height: 2.5rem;
+    margin: 15%;
+}
+
+.navbar-logo{
+    width: 10rem;
+}
+
+.navbar-links{
+    display: none;
+}
+
+
+
+
+
+/* PRIMA PARTE */
+
+.imgbackground{
+    background: #ffffff url(images/Other/computer-tablet.webp) no-repeat center ;
+    background-size: cover;
+    width: 100%;
+    height: 118rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-tittle{
+    color: #ffffff;
+    font-size: 5.6rem;
+    font-weight: bold;
+    width: 125%;
+}
+
+.first-tittle-div{
+    width: 50%;
+    color: #ffffff;
+    margin-left: 9%;
+}
+
+.first-tittle-link{
+    color: #ffffff;
+}
+
+
+.first-article-types{
+    display: flex;
+    justify-content: center;
+}
+
+.first-div-article-types{
+    width: 90%;
+}
+
+
+.types_div{
+    background-color: #ffffff;
+    height: 14rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 15px;
+}
+
+
+.img-types_div{
+    background-color: #e5e5e5;
+    border-radius: 50%;
+    padding: 1.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.types_text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+/* SECONDA PARTE */
+
+.background1-div{
+    margin-top: 0px;
+    background-color: #f2f2f2;
+    padding-bottom: 2%;
+}
+
+.second-div{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.header{
+    font-size: 4.5rem;
+    margin-top: 0;
+    margin-left: 5%;
+    padding-top: 5rem;
+}
+
+.header_text{
+    font-size: 1.8rem;
+    margin-left: 5%;
+    font-weight: bold;
+    width: 85%;
+}
+
+.text-tick{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 50px;
+    margin: 15px;
+}
+
+.tick-img{
+    background-color: #1847b8;
+    border-radius: 50%;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    margin: 0 auto;
+    margin-left: -1.5rem;
+    margin-right: 6%;
+    margin-top: -1.5rem;
+    margin-bottom: 11%;
+}
+
+.tick-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tick-text{
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+.tick-alltext{
+    margin-top: -5%;
+}
+
+.all-ticks{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 4%;
+}
+
+
+/* TERZA PARTE */
+.third-div{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-spacer{
+    margin-bottom: 5rem;
+    margin-top: 12%;
+}
+
+.third-section-all{
+    background-color: #1847b8;
+    border-radius: 15px;
+    padding: 5rem;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 35%;
+}
+
+.third-text-all{
+    width: 125%;
+    margin-left: -3rem;
+    margin-top: -1rem;
+}
+
+.third-title{
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.third-text{
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-top: 9%;
+}
+
+.person1-img{
+    width: 65%;
+    border-radius: 15px;
+    margin-top: -15%;
+}
+
+.third-section-link{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 1.2rem 4rem;
+    transition: 0.3s linear;
+}
+
+.third-section-link:hover{
+    font-size: 1.5rem;
+}
+
+
+
+/* QUARTA PARTE */
+.forth-div{
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-img{
+    width: 29rem;
+    position: absolute;
+}
+
+.phone-img_background{
+    background-color: #1847b8;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem; 
+}
+
+.forth-img_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.forth-alltext-div{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 16rem;
+}
+
+.forth-header{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.forth-title{
+    font-size: 5rem;
+    width: 90%;
+}
+
+.forth-text{
+    font-size: 1.7rem;
+    color: #000000;
+    width: 90%;
+}
+
+.triangle-pointer{
+    width: 1.1rem;
+    height: 1.1rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.forth-list{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.forth-list_div{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.forth-list_div-bottom{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    width: 90%;
+}
+
+.forth-link{
+    background-color: #1847b8;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1.5rem 3.6rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s linear;
+}
+
+.forth-link:hover{
+    font-size: 1.5rem;
+    background-color: #3d65c3;
+}
+
+.forth-spacer{
+    margin-top: 3.1rem;
+}
+
+
+/* QUINTA PARTE */
+.fifth-background_div{
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+    margin-top: 19rem;
+    margin-bottom: 11rem;
+}
+
+.fifth-div{
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 40rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 6rem;
+}
+
+.fifth-icon-div{
+    background-color: #1847b8;
+    border-radius: 50%;
+    padding: 15px;
+    width: 4.8rem;
+    height: 4.8rem;
+    align-content: center;
+}
+
+.fifth-icon{
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.fifth-textall{
+    width: 90%;
+    text-align: center;
+}
+
+.fifth-title{
+    font-size: 5rem;
+}
+
+.fifth-text{
+    font-size: 2.4rem;
+}
+
+.fifth-link{
+    background-color: #1847b8;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1.5rem 5.4rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s linear;
+}
+
+.fifth-link:hover{
+    font-size: 1.5rem;
+    background-color: #3d65c3;
+}
+
+
+
+/* SESTA PARTE */
+.sixth-div{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: -44rem;
+    margin-bottom: -20rem;
+}
+
+.sixth-imgbulding{
+    height: 20rem;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+    top: 78.5rem;
+    left: 2rem;
+}
+
+.sixth-img-divs{
+    width: 25rem;
+}
+
+.sixth-all-img-div{
+    width: 90%;
+}
+
+.sixth-imgperson{
+    height: 33rem;
+    border-radius: 15px;
+    z-index: 3;
+    position: relative;
+    left: 10.5rem;
+    top: 15rem;
+
+}
+
+.sixth-circlestrip{
+    height: 18rem;
+    z-index: 1;
+    position: relative;
+    top: 28rem;
+    left: 2rem;
+    transition: 0.5s ease-in-out;
+}
+
+.sixth-circlestrip:hover{
+    transform: rotate(360deg);
+}
+
+.sixth-circle{
+    height: 18rem;
+    width: 18rem;
+    background-color: #1847b8;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    left: 49%;
+    margin-top: -14rem;
+}
+
+.sixth-textsection{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 61%;
+    padding: 3rem 3rem 4.5rem 3.5rem;
+    z-index: 2;
+    position: relative;
+    top: 50rem;
+    left: 2rem;
+}
+
+.sixth-title{
+    font-size: 4.8rem;
+    margin-bottom: -0.5rem;
+    width: 20rem;
+}
+
+.sixth-text{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.9rem;
+    margin-top: 2rem;
+}
+
+.sixth-text_under{
+    font-size: 1.6rem;
+    color: #000000;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.sixth-link{
+    background-color: #1847b8;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1.5rem 5.4rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+
+/* SETTIMA PARTE */
+.seventh-background-div{
+    background-color: #f2f2f2;
+    margin-top: 50rem;
+    padding-top: 5rem;
+}
+
+.seventh-div{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.seventh-title{
+    font-size: 3.5rem;
+    margin-bottom: 0rem;
+}
+
+.seventh-header{
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.seventh-header-up{
+    margin-bottom: 0rem;
+    margin-top: 1.6rem;
+}
+
+.seventh-header-down{
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+}
+
+.seventh-title-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.seventh-article-sections{
+    margin: 0 auto;
+    width: 92%;
+    margin-bottom: 2rem;
+}
+
+.seventh-sections-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 3.3rem;
+    width: 95%;
+}
+
+.seventh-sections{
+    height: 62%;
+    background-color: #1847b8;
+    border-radius: 15px;
+    padding: 2.5rem;
+}
+
+.seventh-imgvirgo{
+    height: 5.4rem;
+    transition: 0.5s ease-in-out;
+}
+
+.seventh-imgvirgo:hover{
+    transform: rotate(-90deg);
+}
+
+.seventh-text{
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    margin-top: 3rem;
+    transition: 0.5s ease-in-out;
+}
+
+.seventh-text:hover{
+    transform: rotate(180deg);
+}
+
+.seventh-profileicons{
+    height: 6rem;
+    width: 6rem;
+    border: 0.56rem solid #1847b8;
+    border-radius: 50%;
+    transition: 0.5s ease-in-out;
+}
+
+.seventh-profileicons:hover{
+    transform: rotate(360deg);
+}
+
+.seventh-profilenames{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 2.5rem;
+}
+
+.seventh-profiles-div{
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.seventh-textbotom{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #555C66;
+    margin: 0 auto;
+    margin-top: -1.5rem;
+}
+
+
+
+
+
+
+
+/* OTTAVA PARTE */
+.eight-div{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10rem;
+}
+
+.eight-backgroundimg{
+    background-color: #1847b8;
+    border-radius: 15px;
+    width:  29rem;
+    height: 20rem;
+    z-index: 1;
+    position: relative;
+    top: -16rem;
+    left: 6rem;
+}
+
+.eight-img{
+    border-radius: 15px;
+    height: 20rem;
+    position: relative;    
+    z-index: 2;
+    left: 2rem;
+}
+
+.eight-text-div{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 67%;
+    padding: 1rem 2rem 3.5rem;
+    position: relative;
+    z-index: 3;
+    top: -25rem;
+    left: 2rem;
+}
+
+.eight-title{
+    font-size: 4rem;
+    margin-bottom: 0rem;
+    margin-top: 3rem;
+}
+
+.eight-text{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.eight-text_under{
+    font-size: 1.6rem;
+    color: #000000;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.eight-link{
+    background-color: #1847b8;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 1.3rem 4rem;
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    transition: 0.3s linear;
+}
+
+.eight-link:hover{
+    font-size: 1.6rem;
+    background-color: #3d65c3;
+}
+
+
+
+
+/* NONA E DECIMA PARTE */
+.tenth-background{
+    background-color: #1847b8;
+    padding-bottom: 12rem;
+}
+
+.nineth-div{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    top: -13rem;
+    gap: 2rem;
+}
+
+.nineth-sections{
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 87%;
+    height: 20rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.nineth-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nineth-section-fax{
+    margin-top: 2rem;
+}
+
+.nineth-icons{
+    height: 6.4rem;
+    transition: 0.3s ease-in-out;
+}
+
+.nineth-icons:hover{
+    transform: rotate(25deg);
+}
+
+.nienth-title{
+    font-size: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.nineth-text{
+    font-size: 1.6rem;
+    text-align: center;
+    width: 65%;
+    margin-top: 1rem;
+}
+
+.nineth-email{
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -1.5rem;
+    width: 20rem;
+    color: #1847b8;
+    margin-top: 2rem;
+}
+
+
+
+
+/* DECIMA PARTE */
+.tenth-div{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -7rem;
+}
+
+.tenth-div::selection{              /* Quando selezioni il testo, lo sfondo e bianco e non blu, e il testi diventa blu, in pratica si invertoni i colori */
+    background-color: #ffffff;
+    color: #1847b8;
+}
+
+.tenth-bigsections{
+    width: 90%;
+    margin-top: 0.7rem;
+}
+
+.tenth-title{
+    color: #ffffff;
+    font-size: 3.5rem;
+    margin-top: -2rem;
+}
+
+.tenth-header{
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    width: 97%;
+}
+
+.tenth-text{
+    color: #ffffff;
+    font-size: 1.6rem;
+    width: 90%;
+    line-height: 3rem;
+}
+
+.tenth-social-div{
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 6.5rem;
+}
+
+.tenth-socialicons{
+    height: 3.5rem;
+    transition: 0.3s ease-in-out;
+}
+
+.tenth-socialicons:hover{
+    transform: rotate(25deg);
+}
+
+.tenth-newsletter-titles{
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tenth-newsletter-enter{
+    background-color: #1847b8;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #ffffff;
+    width: 103%;;
+    padding: 1rem 1.2rem;
+}
+
+.tenth-newsletter-enter::placeholder{
+    color: #89a1db;
+}
+
+.tenth-newsletter-enter:focus{
+    outline: none;
+}
+
+.tenth-newsletter-message{
+    background-color: #1847b8;
+    color: #ffffff;
+    font-size: 1.6rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 3px solid #ffffff;
+    width: 103%;
+    padding: 1rem 1.2rem;
+    height: 10rem;
+}
+
+.tenth-newsletter-message::placeholder{
+    color: #89a1db;
+}
+
+.tenth-newsletter-message:focus{
+    outline: none;
+}
+
+.tenth-message-div{
+    margin-top: 3rem;
+}
+
+.tenth-emailnamebig-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.tenth-email-name-div{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.tenth-button{
+    width: 111%;
+    background-color: white;
+    border: 0;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    height: 4.5rem;
+}
+
+
+/* ------------------------------VERSIONE TABLET (>575)---------------------------------------- */
+
+@media screen and (min-width: 575px) {
+    /* NELLE 'MEDIA QUERIES', NELLE CLASSI SI METTE SOLO LA MODIFICA CHE SI VUOLE APPLICARE, E NON TUTTI GLI ELEMENTI DELLA CALSSE ORIGINALE */
+
+
+    /* PRIMA PARTE */
+
+    .imgbackground{
+        height: 101rem;
+    }
+
+    .first-tittle{
+        font-size: 7.6rem;
+        margin-top: 30rem;
+    }
+
+    .first-div-article-types{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5%;
+    }
+
+    .types_div{
+        background-color: #ffffff;
+        width: 24%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 15px;
+    }
+    
+    
+    /* SECONDA PARTE */
+
+    .header{
+        line-height: 5rem;
+    }
+
+    .header_text{
+        margin-top: 3rem;
+    }
+
+    .text-tick{
+        margin-left: -5%;
+    }
+
+
+
+    /* TERZA PARTE */
+
+    .third-section-all{
+        width: 81%;
+    }
+
+    .third-title{
+        font-size: 3.6rem;
+        width: 88%;
+    }
+
+    .third-text{
+        font-size: 1.8rem;
+        width: 75%;
+    }
+
+    .person1-img{
+        width: 85%;
+        margin-top: -17%;
+    }
+
+
+
+
+    /* QUARTA PARTE */
+
+    .phone-img{
+        width: 36rem;
+    }
+
+    .phone-img_background{
+        width: 48rem;
+        height: 48rem;
+    }
+
+    .forth-title{
+        line-height: 5rem;
+        margin-top: 2.5rem;
+    }
+
+    .forth-text{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        width: 102%;
+    }
+
+
+
+    /* SESTA PARTE */
+
+    .sixth-div{
+        margin-bottom: -20rem;
+    }
+
+    .sixth-textsection{
+        top: 48rem;
+        left: 8rem;
+    }
+
+    .sixth-circle{
+        left: 67%;
+        margin-top: -5rem;
+    }
+
+    .sixth-imgperson{
+        height: 46rem;
+        top: 10rem;
+    }
+
+    .sixth-circlestrip{
+        top: 20rem;
+    }
+
+    .sixth-imgbulding{
+        height: 27rem;
+        top: 89.5rem;
+    }
+
+
+
+    /* OTTAVA PARTE */
+
+    .eight-backgroundimg{
+        height: 35rem;
+        top: -27rem;
+        left: 24.5rem;
+    }
+
+    .eight-img{
+        height: 32.5rem;
+    }
+
+    .eight-text-div{
+        width: 80%;
+        top: -39rem;
+        left: -1rem;
+    }
+
+
+
+    /* NONA E DECIMA PARTE */
+
+    .nineth-div{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .nineth-sections{
+        width: 40%;
+    }
+
+    .tenth-title{
+        font-size: 4.8rem;
+    }
+
+    .tenth-button{
+        width: 108%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    /* PRIMA PARTE */
+    .first-tittle-div{
+        margin-left: 3%;
+    }
+
+    .first-div-article-types{
+        margin-left: -6rem;
+    }
+
+    
+    /* SECONDA PARTE */
+    .text-tick{
+        margin-left: 0;
+    }
+
+    .text-tick{
+        width: 35%;
+    }
+
+
+    /* TERZA PARTE */
+    .person1-img {
+        width: 60%;
+        margin-top: -17%;
+        margin-left: 13rem;
+    }
+
+
+    /* QUARTA PARTE */
+    .forth-article{
+        display: flex;
+    }
+    .phone-img_background {
+        width: 34rem;
+        height: 34rem;
+    }
+
+    .phone-img {
+        width: 25rem;
+    }
+
+    .forth-alltext-div{
+        width: 44%;
+    }
+
+    .forth-text{
+        width: 98%;
+    }
+
+
+
+    /* QUINTA PARTE */
+    .fifth-background_div{
+        margin-top: 13rem;
+    }
+    
+    .fifth-div{
+        height: 24rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .fifth-textall {
+        width: 65%;
+        text-align: left;
+        margin-right: 10rem;
+    }
+
+    .fifth-link{
+        margin-left: 13.5rem;
+    }
+
+
+
+    /* SESTA PARTE */
+    .sixth-textsection{
+        width: 46%;
+        top: 49rem;
+        left: 23rem;
+        padding-bottom: 15rem;
+    }
+
+    .sixth-circle{
+        height: 20rem;
+        width: 20rem;
+        left: 70%;
+        margin-top: -16rem;
+    }
+
+    .sixth-imgperson {
+        top: -7rem;
+    }
+
+    .sixth-circlestrip {
+        top: 3rem;
+    }
+
+    .sixth-imgbulding {
+        height: 29rem;
+        top: 73.5rem;
+    }
+
+
+
+    /* SETTIMA PARTE */
+    .seventh-background-div {
+        margin-top: 35rem;
+    }
+
+    .seventh-title{
+        font-size: 6rem;
+    }
+
+    .seventh-sections-div{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .seventh-sections{
+        width: 27rem;
+    }
+
+    .seventh-article-sections {
+        width: 50%;
+        margin-left: 0rem;
+    }
+
+
+
+    /* OTTAVA PARTE */
+    .eight-img{
+        left: 3rem;
+        height: 40.5rem;
+    }
+
+    .eight-backgroundimg {
+        height: 42rem;
+        top: -32rem;
+        left: 40.5rem;
+    }
+
+    .eight-text-div {
+        width: 72%;
+        top: -50rem;
+        left: -2rem;
+    }
+
+    .eight-title{
+        font-size: 6rem;
+    }
+
+
+
+
+    /* NONA E DECIMA PARTE */
+    .tenth-background {
+        margin-top: -22rem;
+    }
+
+    .nineth-sections {
+        width: 42%;
+    }
+
+    .tenth-div{
+        flex-direction: row;
+    }
+
+    .tenth-emailnamebig-div {
+        flex-direction: row;
+    }
+
+    .tenth-newsletter-enter{
+        width: 80%;
+    }
+
+    .tenth-newsletter-message{
+        width: 90%;
+    }
+
+    .tenth-button {
+        width: 97%;
+    }
+
+}
+
+
+
+/* ------------------------------VERSIONE LAPTOP (>992px)---------------------------------------- */
+
+@media screen and (min-width: 992px) {
+
+    /* PRIMA PARTE */
+    .imgbackground{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: -38rem;
+    }
+
+    .first-div-article-types {
+        margin-left: 0rem;
+        margin-bottom: 56rem;
+        margin-top: 13rem;
+    }
+
+
+
+    /* SECONDA PARTE */
+    .header{
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .header_text{
+        text-align: center;
+        width: 63rem;
+        margin-left: 0%;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .tick-alltext{
+        width: 29rem;
+    }
+
+    .text-tick {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }
+
+    .tick-text{
+        margin-top: 1rem;
+    }
+
+
+
+
+
+    /* TERZA PARTE */
+    .third-text-all{
+        width: 45%;
+        margin-left: 0rem; 
+        margin-top: 1rem;
+        height: 18rem
+    }
+
+    .third-title{
+        width: 100%;
+    }
+
+    .third-text{
+        width: 100%;
+    }
+
+    .third-section-all{
+        margin-left: -8.5rem;
+    }
+
+    .person1-img {
+        width: 45%;
+        margin-top: -49rem;
+        margin-left: 48rem;
+    }
+
+
+
+
+    /* QUARTA PARTE */
+    .forth-underlink{
+        margin-top: 3.5rem;
+    }
+
+
+
+
+
+
+
+    /* QUINTA PARTE */
+    .fifth-textall {
+        width: 51%;
+        margin-left: -4rem;
+    }
+
+    .fifth-link {
+        margin-left: 0rem;
+    }
+
+    .fifth-div{
+        height: 11rem;
+    }
+
+
+
+
+    /* SESTA PARTE */
+    .sixth-circle{
+        height: 21rem;
+        width: 21rem;
+        left: 78%;
+        margin-top: -16rem;
+    }
+
+    .sixth-textsection {
+        width: 37%;
+        top: 48rem;
+        left: 43rem;
+    }
+
+    .sixth-title{
+        margin-left: 2rem;
+    }
+
+    .sixth-text{
+        margin-left: 2rem;
+    }
+
+    .sixth-text_under{
+        margin-left: 2rem;
+    }
+
+    .sixth-link{
+        margin-left: 2rem;
+    }
+
+    .sixth-imgperson {
+        top: -48rem;
+    }
+
+    .sixth-circlestrip {
+        top: -38rem;
+    }
+
+    .sixth-imgbulding {
+        height: 32rem;
+        top: 32.5rem;
+        left: -1rem;
+    }
+
+
+
+
+    /* SETTIMA PARTE */
+    .seventh-background-div {
+        margin-top: 0rem;
+    }
+
+    .seventh-sections-div {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .seventh-sections {
+        width: 21.5rem;
+    }
+
+
+
+
+    /* OTTAVA PARTE */
+    .eight-img {
+        left: 0rem;
+        height: 55.5rem;
+    }
+
+    .eight-backgroundimg {
+        height: 50rem;
+        top: -41rem;
+        left: 60.5rem;
+    }
+
+        .eight-text-div {
+        width: 60rem;
+        top: -61rem;
+        left: -3rem;
+    }
+
+
+
+
+
+    /* NONA PARTE */
+    .nineth-sections {
+        width: 18%;
+    }
+
+    .nineth-text{
+        width: 85%;
+    }
+
+
+    /* DECIMA PARTE */
+    .tenth-button {
+        width: 96%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------VERSIONE DESTOP (>1200px)---------------------------------------- */
+
+@media screen and (min-width: 1200px) {
+    
+    /* PRIMA PARTE */
+        .first-tittle-div {
+        margin-left: 8%
+    }
+
+    .first-tittle {
+        font-size: 9.6rem;
+        line-height: 11rem;
+        width: 50rem;
+    }
+
+    .tick-text {
+        margin-top: 1rem;
+        width: 39rem;
+    }
+
+    .text-tick {
+        width: 37%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 5rem;
+        height: 7rem;
+    }
+
+
+    /* SECONDA PARTE */
+    .header{
+        margin-left: 0;
+    }
+
+
+
+    /* TERAZA PARTE */
+    .third-div {
+        width: 80rem;
+    }
+
+    .third-section-all {
+        padding-bottom: 35rem;
+    }
+
+    .person1-img {
+        width: 52%;
+        margin-top: -52rem;
+    }
+
+
+
+
+    /* QUARTA PARTE */
+    .forth-underlink {
+        margin-top: 3.5rem;
+    }
+
+
+
+
+
+
+
+    /* SESTA PARTE */
+    .sixth-div {
+        margin-bottom: -31rem;
+        margin-top: -51rem;
+    }
+
+    .sixth-textsection {
+        width: 31%;
+        top: 59rem;
+        left: 60rem;
+        padding-bottom: 11rem;
+        padding-top: 7rem;
+        padding-left: 8rem;
+    }
+
+    .sixth-imgperson{
+        height: 56rem;    
+        top: -53rem;
+        left: 24rem;    
+    }
+
+    .sixth-circlestrip {
+        top: -40rem;
+        left: 13rem;
+        height: 23rem;
+    }
+
+    .sixth-imgbulding{
+        top: 41.5rem;
+        left: 3rem;
+    }
+
+    .sixth-circle{
+        left: 84%;
+        margin-top: -6rem;
+    }
+
+
+    /* SETTIMA PARTE */
+    .seventh-background-div {
+        margin-bottom: -50rem;
+    }
+
+    .seventh-sections {
+        width: 27.5rem;
+    }
+
+    .eight-img {
+        left: 13rem;
+        height: 58.5rem;
+    }
+
+    .eight-backgroundimg {
+        width: 59rem;
+        height: 56rem;
+        top: -50rem;
+        left: 45.5rem;
+    }
+
+    .eight-text-div {
+        width: 58rem;
+        top: -75rem;
+        left: -3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 6rem
+    }
+
+    
+
+    /* NONA PARTE */
+    .nineth-sections {
+        width: 19%;
+    }
+
+    .nineth-text {
+        width: 90%;
+    }
+
+
+
+    /* DECIMA PARTE */
+    .tenth-button {
+        width: 95%;
+    }
+
+}

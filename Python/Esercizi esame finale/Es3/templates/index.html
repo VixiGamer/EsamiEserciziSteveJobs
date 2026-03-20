@@ -1,0 +1,16 @@
+<div>
+    <h1>Elenco Pokémon</h1>
+    <a href="{{ url_for('add') }}">Aggiungi Pokémon</a>
+    <div style="display: flex; flex-wrap: wrap;">
+        {% for creature in creatures %}
+            <div style="border: 1px solid black; padding: 10px; margin: 10px; width: 250px;">
+                <h2>{{ creature.name }}</h2>
+                <p>Height: {{ creature.height }}</p>
+                <p>Weight: {{ creature.weight }}</p>
+                <p>Types: {{ creature.types }}</p>
+                <p>Stats: {{ creature.stats }}</p>
+                <a href="{{ url_for('edit', id=creature.id) }}">Modifica</a>
+            </div>
+        {% endfor %}
+    </div>
+</div>

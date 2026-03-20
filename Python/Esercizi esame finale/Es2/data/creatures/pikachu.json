@@ -1,0 +1,17 @@
+{
+    "id": 25,
+    "name": "pikachu",
+    "height": 4,
+    "weight": 60,
+    "types": [
+        "electric"
+    ],
+    "stats": {
+        "hp": 35,
+        "attack": 55,
+        "defense": 40,
+        "special-attack": 50,
+        "special-defense": 50,
+        "speed": 90
+    }
+}

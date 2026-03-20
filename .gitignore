@@ -1,0 +1,29 @@
+.DS_Store
+
+# Node / Angular
+node_modules/
+.angular/
+dist/
+coverage/
+
+# Flutter / Dart
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Editors
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+Python/Esercizi esame finale/Es3/instance/*.db
+
+# Compiled binaries
+*.exe

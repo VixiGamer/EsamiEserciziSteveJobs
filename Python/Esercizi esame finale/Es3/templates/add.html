@@ -1,0 +1,12 @@
+<div>
+    <h1>Aggiungi Pokémon</h1>
+    <!--^ Se ce un errore lo fa vedere in rosso -->
+    {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="POST" action="{{ url_for('add') }}">
+        <label for="name">Nome o ID del Pokémon:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Aggiungi</button>
+    </form>
+</div>

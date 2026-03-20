@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('fonts/Jost-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli';
+  src: url('fonts/Muli-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Esempio di utilizzo */
+body, h1, h2 {
+  font-family: 'Jost', sans-serif;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+}
+
+
+
+
+
+/* NAVBAR */
+.navcol{
+    background-color: red;
+}
+
+
+
+/* CAROSELLO */
+.carosel-img1{
+    background-image: url('img/slider-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carosel-img2{
+    background-image: url('img/slider-2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.carosel-img3{
+    background-image: url('img/slider-3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.caro-pretitle{
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: -8px;
+}
+
+.caro-title{
+    color: #ffffff;
+    font-size: 68px;
+}
+
+.caro-text{
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.caro-button{
+    background-color: #2a3cb7;
+    color: #ffffff;
+}
+
+/* PRIMA PARTE */
+.first-card1{
+    background-color: #f1f2f2;
+}
+
+.first-card2{
+    background-color: #ffffff;
+}
+
+.first-circle{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    font-size: 22px;
+    position: absolute;
+    top: -20px;
+    left: 79px;
+}
+
+.first-card-title{
+    color: #282828;
+    font-size: 20px;
+}
+
+.first-card-text{
+    color: #777777;
+    font-size: 16px;
+}
+
+.first-card-price{
+    color: #777777;
+    font-size: 12px;
+}
+
+
+
+/* SECONDA PARTE */
+.second-pretitle{
+    color: #f04623;
+    font-weight: bold;
+    font-size: 11px;
+    margin-bottom: -5px;
+}
+
+.second-title{
+    font-size: 48px;
+    color: #000000;
+    width: 500px;
+}
+
+.second-card-pretitle{
+    color: #999999;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.second-card-title{
+    color: #000000;
+    font-size: 25px;
+}
+
+.second-card-text{
+    color: #777777;
+    font-size: 16px;
+}
+
+
+
+
+/* TERZA PARTE */
+.third-img{
+    background-image: url('img/person1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.third-text{
+    color: #777777;
+    font-size: 16px;
+}
+
+
+
+
+
+/* QUARTA PARTE */
+.forth-py{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+/* QUINTA PARTE */ 
+.fifth-text{
+    color: #ffffff;
+    font-size: 55px;
+}
+
+
+
+/* FOOTER */
+.footer-text{
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.footer-credits{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.newsletter-input{
+    border-radius: 0;
+    border-color: #616161;
+    border-right: none;
+}
+
+.newsletter-input::placeholder{
+    color: #999999;
+}
+
+.newsletter-button{
+    border-radius: 0;
+    border-color: #616161;
+    color: #ffffff;
+    border-left: none;
+    background-color: #1c1c1c;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.footer-title{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.footer-links{
+    color: #CCCCCC;
+    text-decoration: none;
+}

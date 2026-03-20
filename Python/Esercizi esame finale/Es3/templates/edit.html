@@ -1,0 +1,21 @@
+<div>
+    <h1>Modifica Pokémon</h1>
+    <form method="POST" action="{{ url_for('edit', id=creature.id) }}">
+        <label for="name">Nome del Pokémon:</label>
+        <input type="text" id="name" name="name" value="{{ creature.name }}" required style="width: 100px;"><br>
+
+        <label for="height">Altezza:</label>
+        <input type="text" id="height" name="height" value="{{ creature.height }}" style="width: 50px;"><br>
+
+        <label for="weight">Peso:</label>
+        <input type="text" id="weight" name="weight" value="{{ creature.weight }}" style="width: 50px;"><br>
+
+        <label for="types">Tipi (separati da virgola):</label>
+        <input type="text" id="types" name="types" value="{{ creature.types|join(', ') }}"><br>
+
+        <label for="stats">Statistiche:</label>
+        <input type="text" id="stats" name="stats" value="{{ creature.stats }}" style="width: 580px;"><br>
+        <br>
+        <button type="submit">Salva Modifiche</button>
+    </form>
+</div>
